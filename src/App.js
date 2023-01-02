@@ -1,4 +1,4 @@
-import Afshin from "./Components/afshin";
+import Content from "./Components/Content";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <Footer />
-      <Afshin />
+      <Content/>
     </div>
   );
 }
