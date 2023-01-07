@@ -3,10 +3,11 @@ import React from "react";
 const Footer = () => {
   const today = new Date();
 
-  return <div>
-    <p> {today.toDateString()}</p>
-    
-    </div>;
+  return (
+    <div>
+      <footer> {today.toDateString()}</footer>
+    </div>
+  );
 };
 
 export default Footer;
